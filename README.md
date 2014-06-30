@@ -1,6 +1,8 @@
 Komma
 =====
 
+[![Build Status](https://travis-ci.org/jonathanlmarsh/Komma.svg?branch=master)](https://travis-ci.org/jonathanlmarsh/Komma)
+
 CSV file parsing library uses annotations to map the CSV values to an object variable.
 
 Usage
@@ -19,7 +21,7 @@ Apply annotations to the object.
 Then consume the CSV file.
 
     InputStream inputStream = ...
-    
+
     KommaBuilder<Sample> builder = new KommaBuilder<Sample>(Sample.class, inputStream);
     Komma<Sample> komma = builder.build();
     List<Sample> data = komma.comsume();
