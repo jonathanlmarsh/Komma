@@ -32,17 +32,3 @@ Then consume the CSV file.
     KommaBuilder<Sample> builder = new KommaBuilder<Sample>(Sample.class, inputStream);
     Komma<Sample> komma = builder.build();
     List<Sample> data = komma.comsume();
-
-Maven
------
-
-    <dependency>
-      <groupId>com.singlebyte.komma</groupId>
-      <artifactId>komma</artifactId>
-      <version>0.2.0</version>
-    </dependency>
-
-Gradle
------
-
-    compile 'com.singlebyte.komma:komma:0.2.0'
