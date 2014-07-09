@@ -1,7 +1,4 @@
-/**
- *
- */
-package com.singlebyte.komma;
+package komma;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -155,8 +152,8 @@ public class Komma<T> {
 	 */
 	private void populateField(final Field classField, final T row, final String[] fields) throws IllegalArgumentException, IllegalAccessException {
 		KommaField fieldAnnotation = getFieldAnnotation(classField);
-		if (fieldAnnotation != null && fieldAnnotation.index() >= 0) {
-			int index = fieldAnnotation.index(); // get the index
+		if (fieldAnnotation != null && fieldAnnotation.value() >= 0) {
+			int index = fieldAnnotation.value(); // get the index
 			if (index < fields.length) {
 				classField.setAccessible(true); // give me access!
 				classField.set(row, fields[index]);

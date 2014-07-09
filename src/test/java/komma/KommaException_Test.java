@@ -1,10 +1,10 @@
-package com.singlebyte.komma.test;
+package komma.test;
 
 import java.lang.NullPointerException;
 
 import junit.framework.TestCase;
 
-import com.singlebyte.komma.KommaException;
+import komma.KommaException;
 
 public class KommaException_Test extends TestCase {
 

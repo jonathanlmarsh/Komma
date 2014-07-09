@@ -1,9 +1,9 @@
-package com.singlebyte.komma;
+package komma;
 
 public class KommaException extends Exception {
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 2737280736495415666L;
 

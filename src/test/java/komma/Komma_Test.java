@@ -1,4 +1,4 @@
-package com.singlebyte.komma.test;
+package komma.test;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -11,9 +11,9 @@ import org.mockito.Mockito;
 
 import junit.framework.TestCase;
 
-import com.singlebyte.komma.Komma;
-import com.singlebyte.komma.Komma.KommaBuilder;
-import com.singlebyte.komma.KommaException;
+import komma.Komma;
+import komma.Komma.KommaBuilder;
+import komma.KommaException;
 
 public class Komma_Test extends TestCase {
 

@@ -1,13 +1,13 @@
-package com.singlebyte.komma.test;
+package komma.test;
 
-import com.singlebyte.komma.KommaField;
+import komma.KommaField;
 
 public class Sample {
 
-	@KommaField(index = 0)
+	@KommaField(0)
 	private String value1;
 
-	@KommaField(index = 1)
+	@KommaField(1)
 	private String value2;
 
 	private String value3;

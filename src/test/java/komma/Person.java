@@ -1,16 +1,16 @@
-package com.singlebyte.komma.test;
+package komma.test;
 
-import com.singlebyte.komma.KommaField;
+import komma.KommaField;
 
 public class Person {
 
-	@KommaField(index = 0)
+	@KommaField(value = 0)
 	private String firstName;
 
-	@KommaField(index = 1)
+	@KommaField(value = 1)
 	private String lastName;
 
-	@KommaField(index = 2)
+	@KommaField(value = 2)
 	private String initials;
 
 	public String getFirstName() {
